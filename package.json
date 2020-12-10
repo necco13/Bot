@@ -1,13 +1,13 @@
 {
   "name": "discord-bot",
-  "version": "1.0.0",
-  "description": "Discord bot for SitePoint",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "bot",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Michiel Mulders",
-  "license": "ISC",
+  "author": "Nejc Narobe, Nejc Sila",
+  "license": "",
   "dependencies": {
     "discord.js": "^11.5.1",
     "dotenv": "^8.2.0"
