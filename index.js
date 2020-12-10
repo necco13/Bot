@@ -16,7 +16,7 @@ if (msg.content === 'ping') {
   msg.reply('pong');
   msg.channel.send('pong');
 
-} else if (msg.content.startsWith('!kick')) {
+} else if (msg.content.startsWith('!nationality')) {
   if (msg.mentions.users.size) {
     const taggedUser = msg.mentions.users.first();
     msg.channel.send(`You wanted to kick: ${taggedUser.username}`);
