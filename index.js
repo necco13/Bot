@@ -17,9 +17,3 @@ bot.on('message', msg => {
   }
 
 });
-
-function test()
-{
-if(msg.content === '!test')
-  msg.channel.send('ok');
-}
