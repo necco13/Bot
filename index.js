@@ -17,8 +17,3 @@ bot.on('message', msg => {
   }
 
 });
-
-function help()
-{
-  msg.channel.send("Rules can be found in");
-}
